@@ -1,0 +1,94 @@
+
+.div1{
+    display: grid;
+    height: 58px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+   #hdiv{
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: #8228a3de;
+    color: white;
+    margin: 18px;
+    padding: 9px;
+    width: 74px;
+    height: 22px;
+   }
+   #elediv{
+    display: flex;
+    margin: 18px;
+    padding: 9px;
+   justify-content: space-evenly;
+   }
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+}
+#heading{
+    color: blue;
+}
+.sidebar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidewrap{
+      flex: 50%;
+}
+#leftside{
+    padding: 10px;
+    height: 100%;
+}
+#rightside{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.para {
+    flex: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.div3 , .div4 , .div5 , .div6{
+    padding: 17px;
+    margin: 10px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer p{
+    background-color: yellow;
+    text-align: center;
+    margin-top: 110px;
+}
+@media screen and (max-width:800px){
+    #elediv{
+        flex-direction: column;
+        align-items: center;
+        margin: 7px;
+    }
+    #elediv span{
+        margin: 3px;
+    }
+    .div1{
+        height: 170px
+    }
+    #hdiv{
+       justify-content: center;
+       margin-top: 60px;
+    }
+    .para h3{
+        margin: 5px;
+    }
+    
+}
